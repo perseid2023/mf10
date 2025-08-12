@@ -1,0 +1,30 @@
+regsvr32 msmpeg2vdec
+
+
+dlloverrides :
+
+"evr"="native,builtin"
+"mf"="native,builtin"
+"mfasfsrcsnk"="native,builtin"
+"mferror"="native,builtin"
+"mfh264enc"="native,builtin"
+"mfmediaengine"="native,builtin"
+"mfmp4srcsnk"="native,builtin"
+"mfplat"="native,builtin"
+"mfplay"="native,builtin"
+"mfreadwrite"="native,builtin"
+"mfsrcsnk"="native,builtin"
+"mp3dmod"="native,builtin"
+"msauddecmft"="native,builtin"
+"msmpeg2adec"="native,builtin"
+"msmpeg2vdec"="native,builtin"
+"msvproc"="native,builtin"
+"qasf"="native,builtin"
+"resampledmo"="native,builtin"
+"vidreszr"="native,builtin"
+"windows.media"="native,builtin"
+"wmadmod"="native,builtin"
+"wmasf"="native,builtin"
+"wmp"="native,builtin"
+"wmvcore"="native,builtin"
+"wmvdecod"="native,builtin"
