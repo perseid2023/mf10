@@ -1,5 +1,7 @@
 regsvr32 msmpeg2vdec
 
+batch regserver with cmd :
+for %1 in (*.dll) do regsvr32 /s %1
 
 dlloverrides :
 
